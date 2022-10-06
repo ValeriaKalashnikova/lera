@@ -1,0 +1,9 @@
+name = int(input("Введите имя: "))
+surname = int(input("Введите фамилию: "))
+year = int(input("Введите год рождения: "))
+print(name,surname,year,sep="_")
+year += 60
+D = name
+name = surname
+surname = D
+print(name,surname,year,sep="_")
